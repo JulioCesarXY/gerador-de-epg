@@ -1,0 +1,41 @@
+name: Atualizar EPG Diario
+
+on:
+  schedule:
+    # Roda todos os dias às 03:00 AM no horário de Brasília (06:00 UTC)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Permite que você rode o script manualmente pelo botão no GitHub
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Baixa o código do repositório para a máquina virtual
+    - name: Checkout do repositorio
+      uses: actions/checkout@v4
+
+    # 2. Configura o Python no ambiente virtual
+    - name: Configurar Python
+      uses: actions/setup-python@v5
+      with:
+        python-python: '3.10'
+
+    # 3. Instala as dependências necessárias
+    - name: Instalar dependencias
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    # 4. Executa o seu script Python (Certifique-se de que o nome está correto)
+    - name: Executar script de EPG
+      run: python gerar_epg_exato.py
+
+    # 5. Salva o arquivo epg.xml gerado de volta no seu GitHub
+    - name: Commitar e dar Push no EPG atualizado
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add epg.xml
+        git diff --quiet && git diff --staged --quiet || (git commit -m "EPG Atualizado automaticamente" && git push)
+        
