@@ -29,7 +29,7 @@ jobs:
 
     # 4. Executa o seu script Python (Certifique-se de que o nome está correto)
     - name: Executar script de EPG
-      run: python gerar_epg_exato.py
+      run: python gerar_epg.py
 
     # 5. Salva o arquivo epg.xml gerado de volta no seu GitHub
     - name: Commitar e dar Push no EPG atualizado
