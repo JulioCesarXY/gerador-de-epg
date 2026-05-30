@@ -1,0 +1,39 @@
+name: Update EPG Final
+
+on:
+  schedule:
+    # Executa todos os dias às 03:00 Horário de Brasília (06:00 UTC)
+    - cron: '0 6 * * *' 
+  workflow_dispatch: # Permite rodar manualmente pelo painel do GitHub
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4 # Versão mais recente e estável
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests lxml 
+
+      - name: Run EPG Script
+        run: python epgfinal.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add epg/epg_final2.xml epg/epg_final2.xml.gz
+          git commit -m "Auto update EPG: $(date +'%Y-%m-%d %H:%M')" || echo "No changes to commit"
+          git pull --rebase origin main
+          git push origin main
