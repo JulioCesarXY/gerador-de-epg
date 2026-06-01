@@ -1,4 +1,4 @@
-name: Atualizar EPG Diario
+name: Atualizar YeeaahTV EPG 
 
 on:
   schedule:
