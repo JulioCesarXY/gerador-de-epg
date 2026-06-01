@@ -36,6 +36,6 @@ jobs:
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add epg.xml
+        git add yeeaahtv_epg.xml
         git diff --quiet && git diff --staged --quiet || (git commit -m "EPG Atualizado automaticamente" && git push)
         
