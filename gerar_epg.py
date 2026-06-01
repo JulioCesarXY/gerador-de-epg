@@ -77,7 +77,7 @@ def formatar_data_xmltv(data_base, string_horario):
         return None
 
 
-def criar_xmltv(programas, nome_arquivo="epg.xml"):
+def criar_xmltv(programas, nome_arquivo="yeeaahtv_epg.xml"):
     tv_root = ET.Element("tv")
     tv_root.set("generator-info-name", "Gerador EPG TVPlus Preciso")
 
