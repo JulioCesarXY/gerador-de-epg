@@ -8,8 +8,7 @@ EPG_SOURCES = [
     "https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz",
     "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/PlutoTV/br.xml",
     "https://epgshare01.online/epgshare01/epg_ripper_NL1.xml.gz",
-    "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",
-    "https://raw.githubusercontent.com/JulioCesarXY/EPG-TCL-Channel/refs/heads/main/tcl_epg.xml"
+    "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz"
 
 ]
 
