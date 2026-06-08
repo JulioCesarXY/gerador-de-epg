@@ -51,7 +51,7 @@ def gerar_xmltv():
     xml_bonito = reparsed.toprettyxml(indent="  ")
 
     # Salvar no arquivo epg.xml
-    with open("epg.xml", "w", encoding="utf-8") as f:
+    with open("epg_canal_vazio.xml", "w", encoding="utf-8") as f:
         f.write(xml_bonito)
 
     print("Sucesso: O arquivo 'epg.xml' foi gerado com as próximas 24 horas!")
