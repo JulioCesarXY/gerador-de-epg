@@ -1,0 +1,36 @@
+name: Atualizar EPG Diariamente
+
+on:
+  schedule:
+    # Roda todos os dias às 00:00 UTC (ajuste se preferir outro horário)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Permite que você clique em um botão e rode manualmente
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Baixa o código do seu repositório
+    - name: Checkout do repositório
+      uses: actions/checkout@v4
+
+    # 2. Configura o Python na máquina do GitHub
+    - name: Configurar Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    # 3. Executa o script que cria o epg.xml
+    - name: Gerar novo arquivo EPG
+      run: python gerar_epg_vazio.py
+
+    # 4. Envia o arquivo atualizado de volta para o seu GitHub
+    - name: Commitar e enviar alterações
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add epg_canal_vazio.xml
+        
+        # Só faz o commit se houver mudanças reais para evitar erros
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Atualização automática do EPG [skip ci]" && git push)
