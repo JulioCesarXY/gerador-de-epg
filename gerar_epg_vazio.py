@@ -1,4 +1,5 @@
 import datetime
+from zoneinfo import ZoneInfo
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 
@@ -13,17 +14,20 @@ def gerar_xmltv():
     display_name = ET.SubElement(channel, "display-name")
     display_name.text = channel_name
 
-    # Pega o horário atual e zera os minutos/segundos para alinhar na hora cheia
-    agora = datetime.datetime.now()
-    hora_inicio = agora.replace(minute=0, second=0, microsecond=0)
+    # 1. Força o fuso horário do Brasil (Brasília/São Paulo)
+    fuso_brasil = ZoneInfo("America/Sao_Paulo")
+    agora_brasil = datetime.datetime.now(fuso_brasil)
+    
+    # 2. Zera minutos e segundos baseado no horário do Brasil
+    hora_inicio = agora_brasil.replace(minute=0, second=0, microsecond=0)
 
     for i in range(24):
         inicio_bloco = hora_inicio + datetime.timedelta(hours=i)
         fim_bloco = hora_inicio + datetime.timedelta(hours=i + 1)
 
-        # Usando a formatação sem fuso fixo para o player gerenciar o fuso local da TV
-        str_inicio = inicio_bloco.strftime("%Y%m%d%H%M%S")
-        str_fim = fim_bloco.strftime("%Y%m%d%H%M%S")
+        # 3. Formata a hora incluindo a tag de fuso (ex: -0300) para a TV ler perfeitamente
+        str_inicio = inicio_bloco.strftime("%Y%m%d%H%M%S %z")
+        str_fim = fim_bloco.strftime("%Y%m%d%H%M%S %z")
 
         programme = ET.SubElement(tv, "programme", attrib={
             "start": str_inicio,
@@ -31,7 +35,7 @@ def gerar_xmltv():
             "channel": channel_id
         })
 
-        # Título dinâmico mostrando o intervalo correto do bloco
+        # 4. Título dinâmico com o horário correto do Brasil
         exibicao_inicio = inicio_bloco.strftime("%H:%M")
         exibicao_fim = fim_bloco.strftime("%H:%M")
         program_title = f"Programação 24/7 ({exibicao_inicio} - {exibicao_fim})"
@@ -49,7 +53,7 @@ def gerar_xmltv():
     with open("epg.xml", "w", encoding="utf-8") as f:
         f.write(xml_bonito)
 
-    print("Sucesso: O arquivo 'epg.xml' foi atualizado com títulos corrigidos!")
+    print("Sucesso: O arquivo 'epg.xml' foi gerado com base no horário do Brasil!")
 
 if __name__ == "__main__":
     gerar_xmltv()
