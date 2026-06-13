@@ -1,4 +1,4 @@
-name: Atualizar EPG Diariamente
+name: Atualizar EPG Vazio
 
 on:
   schedule:
