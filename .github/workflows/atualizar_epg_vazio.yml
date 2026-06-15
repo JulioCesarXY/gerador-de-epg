@@ -28,8 +28,8 @@ jobs:
     # 4. Envia o arquivo atualizado de volta para o seu GitHub
     - name: Commitar e enviar alterações
       run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
+        git config --local user.email "104462712+JulioCesarXY@users.noreply.github.com"
+        git config --local user.name "JulioCesarXY"
         git add epg_canal_vazio.xml
         
         # Só faz o commit se houver mudanças reais para evitar erros
