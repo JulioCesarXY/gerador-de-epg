@@ -34,8 +34,8 @@ jobs:
     # 5. Salva o arquivo epg.xml gerado de volta no seu GitHub
     - name: Commitar e dar Push no EPG atualizado
       run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
+        git config --local user.email "104462712+JulioCesarXY@users.noreply.github.com"
+        git config --local user.name "JulioCesarXY"
         git add yeeaahtv_epg.xml
         git diff --quiet && git diff --staged --quiet || (git commit -m "EPG Atualizado automaticamente" && git push)
         
