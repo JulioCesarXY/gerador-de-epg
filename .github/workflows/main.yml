@@ -31,8 +31,8 @@ jobs:
 
       - name: Commit and Push changes
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.email "104462712+JulioCesarXY@users.noreply.github.com"
+          git config --local user.name "JulioCesarXY"
           git add epg/epg_final2.xml epg/epg_final2.xml.gz
           git commit -m "Auto update EPG: $(date +'%Y-%m-%d %H:%M')" || echo "No changes to commit"
           git pull --rebase origin main
