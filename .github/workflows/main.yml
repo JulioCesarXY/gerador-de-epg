@@ -1,4 +1,4 @@
-name: Update EPG Final
+name: Update EPG Final 2
 
 on:
   schedule:
