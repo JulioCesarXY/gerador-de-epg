@@ -2,14 +2,18 @@ name: Atualizar EPG Vazio
 
 on:
   schedule:
-    # Roda todos os dias às 00:00 UTC (ajuste se preferir outro horário)
+    # Roda todos os dias às 00:00 UTC
     - cron: '0 0 * * *'
-  workflow_dispatch: # Permite que você clique em um botão e rode manualmente
+  workflow_dispatch: # Permite rodar manualmente pelo botão no GitHub
+
+# IMPORTANTE: Dá permissão para o bot alterar e commitar arquivos no repositório
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    
     steps:
     # 1. Baixa o código do seu repositório
     - name: Checkout do repositório
@@ -21,16 +25,24 @@ jobs:
       with:
         python-version: '3.x'
 
-    # 3. Executa o script que cria o epg.xml
+    # 3. Executa o script que cria o arquivo EPG
     - name: Gerar novo arquivo EPG
       run: python gerar_epg_vazio.py
 
-    # 4. Envia o arquivo atualizado de volta para o seu GitHub
+    # 4. Envia o arquivo atualizado de volta para o GitHub
     - name: Commitar e enviar alterações
       run: |
         git config --local user.email "104462712+JulioCesarXY@users.noreply.github.com"
         git config --local user.name "JulioCesarXY"
+        
+        # ATENÇÃO: Garanta que o nome do arquivo aqui seja o MESMO que o seu script Python gera.
+        # Se o script gerar 'epg.xml', mude aqui para epg.xml
         git add epg_canal_vazio.xml
         
-        # Só faz o commit se houver mudanças reais para evitar erros
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Atualização automática do EPG $(date +'%Y-%m-%d %H:%M')" [skip ci]" && git push)
+        # Checa se há mudanças e faz o commit/push de forma segura
+        if ! git diff --cached --quiet; then
+          git commit -m "Atualização automática do EPG $(date +'%Y-%m-%d %H:%M') [skip ci]"
+          git push
+        else
+          echo "Nenhuma alteração detectada no arquivo EPG."
+        fi
