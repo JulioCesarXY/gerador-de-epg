@@ -33,4 +33,4 @@ jobs:
         git add epg_canal_vazio.xml
         
         # Só faz o commit se houver mudanças reais para evitar erros
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Atualização automática do EPG [skip ci]" && git push)
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Atualização automática do EPG $(date +'%Y-%m-%d %H:%M')" [skip ci]" && git push)
