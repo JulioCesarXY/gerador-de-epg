@@ -3,99 +3,99 @@
   <channel id="Canal24.7">
     <display-name>Canal 24/7</display-name>
   </channel>
-  <programme start="20260710220000 -0300" stop="20260710230000 -0300" channel="Canal24.7">
+  <programme start="20260711220000 -0300" stop="20260711230000 -0300" channel="Canal24.7">
     <title lang="pt">Programação 24/7 (22:00 - 23:00)</title>
     <desc lang="pt">Programação Regular do Canal Ao Vivo.</desc>
   </programme>
-  <programme start="20260710230000 -0300" stop="20260711000000 -0300" channel="Canal24.7">
+  <programme start="20260711230000 -0300" stop="20260712000000 -0300" channel="Canal24.7">
     <title lang="pt">Programação 24/7 (23:00 - 00:00)</title>
     <desc lang="pt">Programação Regular do Canal Ao Vivo.</desc>
   </programme>
-  <programme start="20260711000000 -0300" stop="20260711010000 -0300" channel="Canal24.7">
+  <programme start="20260712000000 -0300" stop="20260712010000 -0300" channel="Canal24.7">
     <title lang="pt">Programação 24/7 (00:00 - 01:00)</title>
     <desc lang="pt">Programação Regular do Canal Ao Vivo.</desc>
   </programme>
-  <programme start="20260711010000 -0300" stop="20260711020000 -0300" channel="Canal24.7">
+  <programme start="20260712010000 -0300" stop="20260712020000 -0300" channel="Canal24.7">
     <title lang="pt">Programação 24/7 (01:00 - 02:00)</title>
     <desc lang="pt">Programação Regular do Canal Ao Vivo.</desc>
   </programme>
-  <programme start="20260711020000 -0300" stop="20260711030000 -0300" channel="Canal24.7">
+  <programme start="20260712020000 -0300" stop="20260712030000 -0300" channel="Canal24.7">
     <title lang="pt">Programação 24/7 (02:00 - 03:00)</title>
     <desc lang="pt">Programação Regular do Canal Ao Vivo.</desc>
   </programme>
-  <programme start="20260711030000 -0300" stop="20260711040000 -0300" channel="Canal24.7">
+  <programme start="20260712030000 -0300" stop="20260712040000 -0300" channel="Canal24.7">
     <title lang="pt">Programação 24/7 (03:00 - 04:00)</title>
     <desc lang="pt">Programação Regular do Canal Ao Vivo.</desc>
   </programme>
-  <programme start="20260711040000 -0300" stop="20260711050000 -0300" channel="Canal24.7">
+  <programme start="20260712040000 -0300" stop="20260712050000 -0300" channel="Canal24.7">
     <title lang="pt">Programação 24/7 (04:00 - 05:00)</title>
     <desc lang="pt">Programação Regular do Canal Ao Vivo.</desc>
   </programme>
-  <programme start="20260711050000 -0300" stop="20260711060000 -0300" channel="Canal24.7">
+  <programme start="20260712050000 -0300" stop="20260712060000 -0300" channel="Canal24.7">
     <title lang="pt">Programação 24/7 (05:00 - 06:00)</title>
     <desc lang="pt">Programação Regular do Canal Ao Vivo.</desc>
   </programme>
-  <programme start="20260711060000 -0300" stop="20260711070000 -0300" channel="Canal24.7">
+  <programme start="20260712060000 -0300" stop="20260712070000 -0300" channel="Canal24.7">
     <title lang="pt">Programação 24/7 (06:00 - 07:00)</title>
     <desc lang="pt">Programação Regular do Canal Ao Vivo.</desc>
   </programme>
-  <programme start="20260711070000 -0300" stop="20260711080000 -0300" channel="Canal24.7">
+  <programme start="20260712070000 -0300" stop="20260712080000 -0300" channel="Canal24.7">
     <title lang="pt">Programação 24/7 (07:00 - 08:00)</title>
     <desc lang="pt">Programação Regular do Canal Ao Vivo.</desc>
   </programme>
-  <programme start="20260711080000 -0300" stop="20260711090000 -0300" channel="Canal24.7">
+  <programme start="20260712080000 -0300" stop="20260712090000 -0300" channel="Canal24.7">
     <title lang="pt">Programação 24/7 (08:00 - 09:00)</title>
     <desc lang="pt">Programação Regular do Canal Ao Vivo.</desc>
   </programme>
-  <programme start="20260711090000 -0300" stop="20260711100000 -0300" channel="Canal24.7">
+  <programme start="20260712090000 -0300" stop="20260712100000 -0300" channel="Canal24.7">
     <title lang="pt">Programação 24/7 (09:00 - 10:00)</title>
     <desc lang="pt">Programação Regular do Canal Ao Vivo.</desc>
   </programme>
-  <programme start="20260711100000 -0300" stop="20260711110000 -0300" channel="Canal24.7">
+  <programme start="20260712100000 -0300" stop="20260712110000 -0300" channel="Canal24.7">
     <title lang="pt">Programação 24/7 (10:00 - 11:00)</title>
     <desc lang="pt">Programação Regular do Canal Ao Vivo.</desc>
   </programme>
-  <programme start="20260711110000 -0300" stop="20260711120000 -0300" channel="Canal24.7">
+  <programme start="20260712110000 -0300" stop="20260712120000 -0300" channel="Canal24.7">
     <title lang="pt">Programação 24/7 (11:00 - 12:00)</title>
     <desc lang="pt">Programação Regular do Canal Ao Vivo.</desc>
   </programme>
-  <programme start="20260711120000 -0300" stop="20260711130000 -0300" channel="Canal24.7">
+  <programme start="20260712120000 -0300" stop="20260712130000 -0300" channel="Canal24.7">
     <title lang="pt">Programação 24/7 (12:00 - 13:00)</title>
     <desc lang="pt">Programação Regular do Canal Ao Vivo.</desc>
   </programme>
-  <programme start="20260711130000 -0300" stop="20260711140000 -0300" channel="Canal24.7">
+  <programme start="20260712130000 -0300" stop="20260712140000 -0300" channel="Canal24.7">
     <title lang="pt">Programação 24/7 (13:00 - 14:00)</title>
     <desc lang="pt">Programação Regular do Canal Ao Vivo.</desc>
   </programme>
-  <programme start="20260711140000 -0300" stop="20260711150000 -0300" channel="Canal24.7">
+  <programme start="20260712140000 -0300" stop="20260712150000 -0300" channel="Canal24.7">
     <title lang="pt">Programação 24/7 (14:00 - 15:00)</title>
     <desc lang="pt">Programação Regular do Canal Ao Vivo.</desc>
   </programme>
-  <programme start="20260711150000 -0300" stop="20260711160000 -0300" channel="Canal24.7">
+  <programme start="20260712150000 -0300" stop="20260712160000 -0300" channel="Canal24.7">
     <title lang="pt">Programação 24/7 (15:00 - 16:00)</title>
     <desc lang="pt">Programação Regular do Canal Ao Vivo.</desc>
   </programme>
-  <programme start="20260711160000 -0300" stop="20260711170000 -0300" channel="Canal24.7">
+  <programme start="20260712160000 -0300" stop="20260712170000 -0300" channel="Canal24.7">
     <title lang="pt">Programação 24/7 (16:00 - 17:00)</title>
     <desc lang="pt">Programação Regular do Canal Ao Vivo.</desc>
   </programme>
-  <programme start="20260711170000 -0300" stop="20260711180000 -0300" channel="Canal24.7">
+  <programme start="20260712170000 -0300" stop="20260712180000 -0300" channel="Canal24.7">
     <title lang="pt">Programação 24/7 (17:00 - 18:00)</title>
     <desc lang="pt">Programação Regular do Canal Ao Vivo.</desc>
   </programme>
-  <programme start="20260711180000 -0300" stop="20260711190000 -0300" channel="Canal24.7">
+  <programme start="20260712180000 -0300" stop="20260712190000 -0300" channel="Canal24.7">
     <title lang="pt">Programação 24/7 (18:00 - 19:00)</title>
     <desc lang="pt">Programação Regular do Canal Ao Vivo.</desc>
   </programme>
-  <programme start="20260711190000 -0300" stop="20260711200000 -0300" channel="Canal24.7">
+  <programme start="20260712190000 -0300" stop="20260712200000 -0300" channel="Canal24.7">
     <title lang="pt">Programação 24/7 (19:00 - 20:00)</title>
     <desc lang="pt">Programação Regular do Canal Ao Vivo.</desc>
   </programme>
-  <programme start="20260711200000 -0300" stop="20260711210000 -0300" channel="Canal24.7">
+  <programme start="20260712200000 -0300" stop="20260712210000 -0300" channel="Canal24.7">
     <title lang="pt">Programação 24/7 (20:00 - 21:00)</title>
     <desc lang="pt">Programação Regular do Canal Ao Vivo.</desc>
   </programme>
-  <programme start="20260711210000 -0300" stop="20260711220000 -0300" channel="Canal24.7">
+  <programme start="20260712210000 -0300" stop="20260712220000 -0300" channel="Canal24.7">
     <title lang="pt">Programação 24/7 (21:00 - 22:00)</title>
     <desc lang="pt">Programação Regular do Canal Ao Vivo.</desc>
   </programme>
