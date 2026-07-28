@@ -3,243 +3,251 @@
   <channel id="YeeaahTV">
     <display-name>Yeeaah TV2</display-name>
   </channel>
-  <programme start="20260727060000 -0300" stop="20260727072900 -0300" channel="YeeaahTV">
-    <title lang="pt">Yeeaah Esportes</title>
-    <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
-  </programme>
-  <programme start="20260727072900 -0300" stop="20260727073000 -0300" channel="YeeaahTV">
-    <title lang="pt">Yeeaah Drops</title>
-    <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
-  </programme>
-  <programme start="20260727073000 -0300" stop="20260727075900 -0300" channel="YeeaahTV">
-    <title lang="pt">Yeeaah Zone</title>
-    <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
-  </programme>
-  <programme start="20260727075900 -0300" stop="20260727080000 -0300" channel="YeeaahTV">
-    <title lang="pt">Yeeaah Drops</title>
-    <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
-  </programme>
-  <programme start="20260727080000 -0300" stop="20260727095900 -0300" channel="YeeaahTV">
+  <programme start="20260728040000 -0300" stop="20260728055900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Games</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727095900 -0300" stop="20260727100000 -0300" channel="YeeaahTV">
+  <programme start="20260728055900 -0300" stop="20260728060000 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727100000 -0300" stop="20260727112900 -0300" channel="YeeaahTV">
+  <programme start="20260728060000 -0300" stop="20260728072900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Esportes</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727112900 -0300" stop="20260727113000 -0300" channel="YeeaahTV">
+  <programme start="20260728072900 -0300" stop="20260728073000 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727113000 -0300" stop="20260727115900 -0300" channel="YeeaahTV">
+  <programme start="20260728073000 -0300" stop="20260728075900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Zone</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727115900 -0300" stop="20260727120000 -0300" channel="YeeaahTV">
+  <programme start="20260728075900 -0300" stop="20260728080000 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727120000 -0300" stop="20260727135900 -0300" channel="YeeaahTV">
+  <programme start="20260728080000 -0300" stop="20260728095900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Games</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727135900 -0300" stop="20260727140000 -0300" channel="YeeaahTV">
+  <programme start="20260728095900 -0300" stop="20260728100000 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727140000 -0300" stop="20260727152900 -0300" channel="YeeaahTV">
+  <programme start="20260728100000 -0300" stop="20260728112900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Esportes</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727152900 -0300" stop="20260727153000 -0300" channel="YeeaahTV">
+  <programme start="20260728112900 -0300" stop="20260728113000 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727153000 -0300" stop="20260727155900 -0300" channel="YeeaahTV">
+  <programme start="20260728113000 -0300" stop="20260728115900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Zone</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727155900 -0300" stop="20260727160000 -0300" channel="YeeaahTV">
+  <programme start="20260728115900 -0300" stop="20260728120000 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727160000 -0300" stop="20260727175900 -0300" channel="YeeaahTV">
+  <programme start="20260728120000 -0300" stop="20260728145900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Games</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727175900 -0300" stop="20260727180000 -0300" channel="YeeaahTV">
+  <programme start="20260728145900 -0300" stop="20260728150000 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727180000 -0300" stop="20260727192900 -0300" channel="YeeaahTV">
+  <programme start="20260728150000 -0300" stop="20260728162900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Esportes</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727192900 -0300" stop="20260727193000 -0300" channel="YeeaahTV">
+  <programme start="20260728162900 -0300" stop="20260728163000 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727193000 -0300" stop="20260727195900 -0300" channel="YeeaahTV">
+  <programme start="20260728163000 -0300" stop="20260728165900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Zone</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727195900 -0300" stop="20260727200000 -0300" channel="YeeaahTV">
+  <programme start="20260728165900 -0300" stop="20260728170000 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727200000 -0300" stop="20260727215900 -0300" channel="YeeaahTV">
+  <programme start="20260728170000 -0300" stop="20260728195900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Games</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727215900 -0300" stop="20260727220000 -0300" channel="YeeaahTV">
+  <programme start="20260728195900 -0300" stop="20260728200000 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727220000 -0300" stop="20260727232900 -0300" channel="YeeaahTV">
+  <programme start="20260728200000 -0300" stop="20260728212900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Esportes</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727232900 -0300" stop="20260727233000 -0300" channel="YeeaahTV">
+  <programme start="20260728212900 -0300" stop="20260728213000 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727233000 -0300" stop="20260727235900 -0300" channel="YeeaahTV">
+  <programme start="20260728213000 -0300" stop="20260728215900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Zone</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727235900 -0300" stop="20260727235900 -0300" channel="YeeaahTV">
+  <programme start="20260728215900 -0300" stop="20260728220000 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727000000 -0300" stop="20260727015900 -0300" channel="YeeaahTV">
+  <programme start="20260728220000 -0300" stop="20260728235900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Games</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727015900 -0300" stop="20260727020000 -0300" channel="YeeaahTV">
+  <programme start="20260728235900 -0300" stop="20260728235900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727020000 -0300" stop="20260727032900 -0300" channel="YeeaahTV">
+  <programme start="20260728000000 -0300" stop="20260728012900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Esportes</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727032900 -0300" stop="20260727033000 -0300" channel="YeeaahTV">
+  <programme start="20260728012900 -0300" stop="20260728013000 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727033000 -0300" stop="20260727035900 -0300" channel="YeeaahTV">
+  <programme start="20260728013000 -0300" stop="20260728015900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Zone</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727035900 -0300" stop="20260727040000 -0300" channel="YeeaahTV">
+  <programme start="20260728015900 -0300" stop="20260728020000 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727040000 -0300" stop="20260727055900 -0300" channel="YeeaahTV">
+  <programme start="20260728020000 -0300" stop="20260728035900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Games</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727055900 -0300" stop="20260727060000 -0300" channel="YeeaahTV">
+  <programme start="20260728035900 -0300" stop="20260728040000 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727060000 -0300" stop="20260727072900 -0300" channel="YeeaahTV">
+  <programme start="20260728040000 -0300" stop="20260728052900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Esportes</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727072900 -0300" stop="20260727073000 -0300" channel="YeeaahTV">
+  <programme start="20260728052900 -0300" stop="20260728053000 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727073000 -0300" stop="20260727075900 -0300" channel="YeeaahTV">
+  <programme start="20260728053000 -0300" stop="20260728055900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Zone</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727075900 -0300" stop="20260727080000 -0300" channel="YeeaahTV">
+  <programme start="20260728055900 -0300" stop="20260728060000 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727080000 -0300" stop="20260727095900 -0300" channel="YeeaahTV">
+  <programme start="20260728060000 -0300" stop="20260728075900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Games</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727095900 -0300" stop="20260727100000 -0300" channel="YeeaahTV">
+  <programme start="20260728075900 -0300" stop="20260728080000 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727100000 -0300" stop="20260727112900 -0300" channel="YeeaahTV">
+  <programme start="20260728080000 -0300" stop="20260728092900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Esportes</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727112900 -0300" stop="20260727113000 -0300" channel="YeeaahTV">
+  <programme start="20260728092900 -0300" stop="20260728093000 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727113000 -0300" stop="20260727115900 -0300" channel="YeeaahTV">
+  <programme start="20260728093000 -0300" stop="20260728095900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Zone</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727115900 -0300" stop="20260727120000 -0300" channel="YeeaahTV">
+  <programme start="20260728095900 -0300" stop="20260728100000 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727120000 -0300" stop="20260727145900 -0300" channel="YeeaahTV">
+  <programme start="20260728100000 -0300" stop="20260728115900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Games</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727145900 -0300" stop="20260727150000 -0300" channel="YeeaahTV">
+  <programme start="20260728115900 -0300" stop="20260728120000 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727150000 -0300" stop="20260727162900 -0300" channel="YeeaahTV">
+  <programme start="20260728120000 -0300" stop="20260728132900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Esportes</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727162900 -0300" stop="20260727163000 -0300" channel="YeeaahTV">
+  <programme start="20260728132900 -0300" stop="20260728133000 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727163000 -0300" stop="20260727165900 -0300" channel="YeeaahTV">
+  <programme start="20260728133000 -0300" stop="20260728135900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Zone</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727165900 -0300" stop="20260727170000 -0300" channel="YeeaahTV">
+  <programme start="20260728135900 -0300" stop="20260728140000 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727170000 -0300" stop="20260727195900 -0300" channel="YeeaahTV">
+  <programme start="20260728140000 -0300" stop="20260728155900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Games</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727195900 -0300" stop="20260727200000 -0300" channel="YeeaahTV">
+  <programme start="20260728155900 -0300" stop="20260728160000 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727200000 -0300" stop="20260727212900 -0300" channel="YeeaahTV">
+  <programme start="20260728160000 -0300" stop="20260728172900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Esportes</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727212900 -0300" stop="20260727213000 -0300" channel="YeeaahTV">
+  <programme start="20260728172900 -0300" stop="20260728173000 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727213000 -0300" stop="20260727215900 -0300" channel="YeeaahTV">
+  <programme start="20260728173000 -0300" stop="20260728175900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Zone</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727215900 -0300" stop="20260727220000 -0300" channel="YeeaahTV">
+  <programme start="20260728175900 -0300" stop="20260728180000 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727220000 -0300" stop="20260727235900 -0300" channel="YeeaahTV">
+  <programme start="20260728180000 -0300" stop="20260728195900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Games</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
-  <programme start="20260727235900 -0300" stop="20260727235900 -0300" channel="YeeaahTV">
+  <programme start="20260728195900 -0300" stop="20260728200000 -0300" channel="YeeaahTV">
+    <title lang="pt">Yeeaah Drops</title>
+    <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
+  </programme>
+  <programme start="20260728200000 -0300" stop="20260728212900 -0300" channel="YeeaahTV">
+    <title lang="pt">Yeeaah Esportes</title>
+    <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
+  </programme>
+  <programme start="20260728212900 -0300" stop="20260728213000 -0300" channel="YeeaahTV">
+    <title lang="pt">Yeeaah Drops</title>
+    <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
+  </programme>
+  <programme start="20260728213000 -0300" stop="20260728215900 -0300" channel="YeeaahTV">
+    <title lang="pt">Yeeaah Zone</title>
+    <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
+  </programme>
+  <programme start="20260728215900 -0300" stop="20260728220000 -0300" channel="YeeaahTV">
+    <title lang="pt">Yeeaah Drops</title>
+    <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
+  </programme>
+  <programme start="20260728220000 -0300" stop="20260728235900 -0300" channel="YeeaahTV">
+    <title lang="pt">Yeeaah Games</title>
+    <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
+  </programme>
+  <programme start="20260728235900 -0300" stop="20260728235900 -0300" channel="YeeaahTV">
     <title lang="pt">Yeeaah Drops</title>
     <desc lang="pt">Programação regular transmitida pela Yeeaah TV.</desc>
   </programme>
